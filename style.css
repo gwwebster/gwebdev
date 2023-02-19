@@ -57,7 +57,7 @@ body {
     margin-top: 12px;
     margin-bottom: 12px;
     position: relative;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 350;
     text-decoration: none;
     color: #000000;
@@ -196,4 +196,24 @@ body {
     margin-bottom: 1%;
     margin-left: 5%;
     padding: 1px;
+}
+
+/* Portfolio CSS */
+
+#portfolio {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-weight: 100;
+    font-size: 27px;
+    display: flex;
+    text-align: center;
+}
+
+#portfolio div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
 }
